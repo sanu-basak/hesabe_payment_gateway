@@ -1,0 +1,22 @@
+{
+    "name": "o2one/hesabe_payment",
+    "description": "This package is used to development payment gateway for kuwait based cities",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "o2oneLabs\\HesabePayment\\": "packages/o2oneLabs/HesabePayment/src",
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "o2oneLabs\\HesabePayment\\": "packages/o2oneLabs/HesabePayment/src",
+            "Tests\\": "tests/"
+        }
+    }
+}
